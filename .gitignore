@@ -1,5 +1,5 @@
 node_modules
 *.png
-*.json
+result.json
 .DS_Store
 *.csv
