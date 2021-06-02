@@ -37,7 +37,7 @@ let post_headers = {
   "Sec-Fetch-Mode": " navigate",
   "Sec-Fetch-User": " ?1",
   "Sec-Fetch-Dest": " document",
-  Referer: " https://results.vtu.ac.in/AS_CBCS/index.php",
+  Referer: " https://results.vtu.ac.in/JFMEcbcs/index.php",
   "Accept-Encoding": " gzip, deflate, br",
   "Accept-Language": " en-GB,en-US;q=0.9,en;q=0.8",
   Cookie:
@@ -49,7 +49,7 @@ const httpsAgent = new https.Agent({
 });
 
 async function getNewSession() {
-  let url = "https://results.vtu.ac.in/AS_CBCS/index.php";
+  let url = "https://results.vtu.ac.in/JFMEcbcs/index.php";
   let headers = {
     "User-Agent":
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15",
@@ -110,11 +110,11 @@ async function getResult(
   Section: string
 ) {
   post_payload["lns"] = USN;
-  const url = "https://results.vtu.ac.in/AS_CBCS/resultpage.php";
+  const url = "https://results.vtu.ac.in/JFMEcbcs/resultpage.php";
   var data = `Token=${post_payload.Token}&lns=${post_payload.lns}&captchacode=${post_payload.captchacode}`;
   var config: AxiosRequestConfig = {
     method: "post",
-    url: "https://results.vtu.ac.in/AS_CBCS/resultpage.php",
+    url: "https://results.vtu.ac.in/JFMEcbcs/resultpage.php",
     headers: post_headers,
     data: data,
     httpsAgent,
@@ -137,7 +137,7 @@ async function getResult(
     (res.data as string).includes("Please check website after 4 hour --- !!!")
   ) {
     console.log("IP Blocked");
-  } else if ((res.data as string).includes("Semester : 6")) {
+  } else if ((res.data as string).includes("Semester : 3")) {
     let results: Array<Result> = [];
     const $ = cheerio.load(res.data);
     $(".divTable").each((idx, v) => {
@@ -177,6 +177,12 @@ async function getResult(
       Sem,
       Section,
     };
+  }
+  else if(res.data == "<script type='text/javascript'>alert('Please check website after 2 hour !!!');window.location.href='index.php';</script>")
+  {
+    console.log("Session broken");
+    await getNewSession();
+    return getResult(USN, Batch, Sem, Section);
   }
 }
 
