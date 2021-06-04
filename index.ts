@@ -137,7 +137,7 @@ async function getResult(
     (res.data as string).includes("Please check website after 4 hour --- !!!")
   ) {
     console.log("IP Blocked");
-  } else if ((res.data as string).includes("Semester : 3")) {
+  } else if ((res.data as string).includes("Semester : 7")) {
     let results: Array<Result> = [];
     const $ = cheerio.load(res.data);
     $(".divTable").each((idx, v) => {
