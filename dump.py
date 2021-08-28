@@ -1,7 +1,7 @@
 import json
 from pymongo import MongoClient
 import re
-client = MongoClient("localhost", 27017)
+client = MongoClient("graph.resnal.ml", 27017)
 db = client.data
 student = db.students
 marks = db.marks
@@ -69,16 +69,19 @@ def FCD(USN, batch, sem):
     selected_student = student.find(
         {"usn": USN, "batch": batch, "sem": sem})[0]
     for i in marks.find({"sid": str(selected_student["_id"])}):
+        total = 100
+        if(i["subjectCode"]=="17CSP85"):
+            total=200
         if i["result"] == "F" or i["result"] == "A" or i["result"] == "X":
             FCD = "F"
         else:
-            if 70 <= int(i["totalMarks"]) <= 100:
+            if 70/100*total <= int(i["totalMarks"]) <= 100/100*total:
                 FCD = "FCD"
-            elif 60 <= int(i["totalMarks"]) <= 69:
+            elif 60/100*total <= int(i["totalMarks"]) <= 69/100*total:
                 FCD = "FC"
-            elif 50 <= int(i["totalMarks"]) <= 59:
+            elif 50/100*total <= int(i["totalMarks"]) <= 59/100*total:
                 FCD = "SC"
-            elif 40 <= int(i["totalMarks"]) <= 49:
+            elif 40/100*total <= int(i["totalMarks"]) <= 49/100*total:
                 FCD = "P"
             else:
                 FCD = "F"
@@ -102,12 +105,12 @@ def GPA(USN, batch, sem):
 
 
 def getCredit(subcode):
-    if subcode == "18CS52":
-        return 4
-    if subcode == "18CS53":
-        return 4
-    if subcode == "18CIV59":
+    if subcode == "17CSP85":
+        return 6
+    if subcode == "17CSS86":
         return 1
+    if subcode == "17CS84":
+        return 2
     elif re.search("^..[A-Z][A-Z][A-Z]?(L|P)[0-9][0-9]$", subcode) is not None:  # Lab
         return 2
     elif re.search("^18[A-Z][A-Z][A-Z]?[0-9][0-9]$", subcode) is not None:  # Subject
