@@ -37,7 +37,7 @@ let post_headers = {
   "Sec-Fetch-Mode": " navigate",
   "Sec-Fetch-User": " ?1",
   "Sec-Fetch-Dest": " document",
-  Referer: " https://results.vtu.ac.in/JFMEcbcs/index.php",
+  Referer: " https://results.vtu.ac.in/JAEcbcs/index.php",
   "Accept-Encoding": " gzip, deflate, br",
   "Accept-Language": " en-GB,en-US;q=0.9,en;q=0.8",
   Cookie:
@@ -49,7 +49,7 @@ const httpsAgent = new https.Agent({
 });
 
 async function getNewSession() {
-  let url = "https://results.vtu.ac.in/JFMEcbcs/index.php";
+  let url = "https://results.vtu.ac.in/JAEcbcs/index.php";
   let headers = {
     "User-Agent":
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15",
@@ -81,6 +81,7 @@ async function getNewSession() {
     ""
   );
   post_headers["Cookie"] = img_headers["Cookie"];
+  console.log(img_url);
   response = await axios.get(img_url, {
     headers: img_headers,
     httpsAgent,
@@ -97,9 +98,14 @@ async function getNewSession() {
     input: process.stdin,
     output: process.stdout,
   });
-  post_payload["captchacode"] = await new Promise((resolve, reject) => {
+  const temp_cap = await new Promise((resolve, reject) => {
     input.question("Enter the captcha code: ", (ans) => resolve(ans));
   });
+  if (temp_cap != "") post_payload["captchacode"] = temp_cap as string;
+  else {
+    console.log("Empty Captcha - Getting new Session");
+    await getNewSession();
+  }
   return;
 }
 
@@ -110,11 +116,11 @@ async function getResult(
   Section: string
 ) {
   post_payload["lns"] = USN;
-  const url = "https://results.vtu.ac.in/JFMEcbcs/resultpage.php";
+  const url = "https://results.vtu.ac.in/JAEcbcs/resultpage.php";
   var data = `Token=${post_payload.Token}&lns=${post_payload.lns}&captchacode=${post_payload.captchacode}`;
   var config: AxiosRequestConfig = {
     method: "post",
-    url: "https://results.vtu.ac.in/JFMEcbcs/resultpage.php",
+    url: "https://results.vtu.ac.in/JAEcbcs/resultpage.php",
     headers: post_headers,
     data: data,
     httpsAgent,
@@ -137,7 +143,7 @@ async function getResult(
     (res.data as string).includes("Please check website after 4 hour --- !!!")
   ) {
     console.log("IP Blocked");
-  } else if ((res.data as string).includes("Semester : 7")) {
+  } else if ((res.data as string).includes("Semester : 8")) {
     let results: Array<Result> = [];
     const $ = cheerio.load(res.data);
     $(".divTable").each((idx, v) => {
@@ -177,9 +183,10 @@ async function getResult(
       Sem,
       Section,
     };
-  }
-  else if(res.data == "<script type='text/javascript'>alert('Please check website after 2 hour !!!');window.location.href='index.php';</script>")
-  {
+  } else if (
+    res.data ==
+    "<script type='text/javascript'>alert('Please check website after 2 hour !!!');window.location.href='index.php';</script>"
+  ) {
     console.log("Session broken");
     await getNewSession();
     return getResult(USN, Batch, Sem, Section);
@@ -194,7 +201,7 @@ async function getResult(
     Section: string;
     Batch: string;
     Sem: string;
-  }> = await csv().fromFile("6th.csv");
+  }> = await csv().fromFile("8th.csv");
   for (const student of json) {
     console.log(
       `${json.indexOf(student) + 1}/${json.length} - Name: ${
