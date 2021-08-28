@@ -13,22 +13,25 @@ def getGrade(USN, batch, sem):
     selected_student = student.find(
         {"usn": USN, "batch": batch, "sem": sem})[0]
     for i in marks.find({"sid": str(selected_student["_id"])}):
+        total = 100
+        if(i["subjectCode"]=="17CSP85"):
+            total=200
         grade = 0
-        if int(i["totalMarks"]) >= 90:
+        if int(i["totalMarks"]) >= 90/100*total:
             grade = 10
-        elif 80 <= int(i["totalMarks"]) <= 89:
+        elif 80/100*total <= int(i["totalMarks"]) <= 89/100*total:
             grade = 9
-        elif 70 <= int(i["totalMarks"]) <= 79:
+        elif 70/100*total <= int(i["totalMarks"]) <= 79/100*total:
             grade = 8
-        elif 60 <= int(i["totalMarks"]) <= 69:
+        elif 60/100*total <= int(i["totalMarks"]) <= 69/100*total:
             grade = 7
-        elif 50 <= int(i["totalMarks"]) <= 59:
+        elif 50/100*total <= int(i["totalMarks"]) <= 59/100*total:
             grade = 6
-        elif 45 <= int(i["totalMarks"]) <= 49:
+        elif 45/100*total <= int(i["totalMarks"]) <= 49/100*total:
             grade = 5
-        elif 40 <= int(i["totalMarks"]) <= 44:
+        elif 40/100*total <= int(i["totalMarks"]) <= 44/100*total:
             grade = 4
-        elif int(i["totalMarks"]) < 40:
+        elif int(i["totalMarks"]) < 40/100*total:
             grade = 0
         marks.update_one({"_id": i["_id"]}, {"$set": {"grade": grade}})
 
@@ -46,7 +49,7 @@ def totalFCD(USN, batch, sem):
             )
             return
         total += int(j["totalMarks"])
-        if j['subjectCode']=="15CSP85":
+        if j['subjectCode']=="17CSP85":
             total_marks += 200
         else:
             total_marks += 100

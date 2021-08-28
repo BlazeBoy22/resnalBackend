@@ -2,4 +2,3 @@ node_modules
 *.png
 result.json
 .DS_Store
-*.csv
