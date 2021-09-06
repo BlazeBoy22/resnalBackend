@@ -14,7 +14,7 @@ def getGrade(USN, batch, sem):
         {"usn": USN, "batch": batch, "sem": sem})[0]
     for i in marks.find({"sid": str(selected_student["_id"])}):
         total = 100
-        if(i["subjectCode"]=="17CSP85"):
+        if(i["subjectCode"]=="17CSP85" or i["subjectCode"]=="15CSP85"):
             total=200
         grade = 0
         if int(i["totalMarks"]) >= 90/100*total:
@@ -49,7 +49,7 @@ def totalFCD(USN, batch, sem):
             )
             return
         total += int(j["totalMarks"])
-        if j['subjectCode']=="17CSP85":
+        if j['subjectCode']=="17CSP85" or j["subjectCode"]=="15CSP85":
             total_marks += 200
         else:
             total_marks += 100
@@ -70,7 +70,7 @@ def FCD(USN, batch, sem):
         {"usn": USN, "batch": batch, "sem": sem})[0]
     for i in marks.find({"sid": str(selected_student["_id"])}):
         total = 100
-        if(i["subjectCode"]=="17CSP85"):
+        if(i["subjectCode"]=="17CSP85" or i["subjectCode"]=="15CSP85"):
             total=200
         if i["result"] == "F" or i["result"] == "A" or i["result"] == "X":
             FCD = "F"
@@ -105,11 +105,11 @@ def GPA(USN, batch, sem):
 
 
 def getCredit(subcode):
-    if subcode == "17CSP85":
+    if subcode == "17CSP85" or subcode == "15CSP85":
         return 6
-    if subcode == "17CSS86":
+    if subcode == "17CSS86" or subcode == "15CSS86":
         return 1
-    if subcode == "17CS84":
+    if subcode == "17CS84" or subcode == "15CS84":
         return 2
     elif re.search("^..[A-Z][A-Z][A-Z]?(L|P)[0-9][0-9]$", subcode) is not None:  # Lab
         return 2
