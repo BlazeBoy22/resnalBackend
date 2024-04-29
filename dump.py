@@ -1,13 +1,15 @@
 import json
 from pymongo import MongoClient
 import re
-client = MongoClient("graph.resnal.tech", 27017)
+client = MongoClient("119.161.98.136", 27017)
 db = client.data
 student = db.students
 marks = db.marks
 
+
 # Helper Methods
 
+print("Student Object")
 
 def getGrade(USN, batch, sem):
     selected_student = student.find(
@@ -107,13 +109,13 @@ def GPA(USN, batch, sem):
 
 def getCredit(subcode):
     # 7th Sem 2020 Batch
-    if subcode == "18CS71" or subcode == "18CS72":
+    if subcode == "BMATS101" or subcode == "BPHYS102":
         return 4
-    if subcode == "18CS734" or subcode == "18CS741" or subcode == "18IM751" or subcode == "18MAT753" or subcode == "18CV753" :
+    if subcode == "BPOPS103" or subcode == "BETCK105H" or subcode == "BESCK104B" :
         return 3
-    if subcode == "18CSL76":
-        return 2
-    if subcode == "18CSP77":
+    #if subcode == "18CSL76":
+        #return 2
+    if subcode == "BENGK106" or subcode == "BKSKK107" or subcode == "BIDTK158":
         return 1
 
     # #2nd_Sem_Datascience
@@ -137,7 +139,7 @@ def calculateTotal(USN, batch, sem):
                        "$set": {"totalmarks": total}}, upsert=True)
 
 data = []
-with open('./result10.json') as f:
+with open('./result12.json') as f:
     data = json.load(f)
 
 if __name__ == "__main__":
@@ -152,6 +154,7 @@ if __name__ == "__main__":
         }
         try:
             stu_id = student.insert_one(stu).inserted_id
+            print(stud_id)
         except:
             print("Student Data Already Exists")
             continue

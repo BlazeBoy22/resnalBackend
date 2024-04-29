@@ -246,7 +246,7 @@ function getResult(USN, Batch, Sem, Section) {
                 return [4 /*yield*/, getNewSession()];
             case 1:
                 _a.sent();
-                return [4 /*yield*/, csv().fromFile("1st_sem_march_2024.csv")];
+                return [4 /*yield*/, csv().fromFile("1SEM2023.csv")];
             case 2:
                 json1 = _a.sent();
                 _i = 0, json1_1 = json1;
@@ -262,7 +262,7 @@ function getResult(USN, Batch, Sem, Section) {
             case 5:
                 res = _a.sent();
                 console.log(res);
-                stream = fs.createWriteStream("result11.json", { flags: 'a' });
+                stream = fs.createWriteStream("result12.json", { flags: 'a' });
                 stream.write(JSON.stringify(res) + "\n");
                 console.log("Pushed result");
                 Result.push(res);
