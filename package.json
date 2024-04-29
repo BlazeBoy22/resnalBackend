@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --ignore '*.json' index.ts",
+    "start": "tsc reval.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,8 +15,10 @@
     "cheerio": "^1.0.0-rc.3",
     "csvtojson": "^2.0.10",
     "nodemon": "^2.0.6",
-    "ts-node": "^9.0.0",
     "tsc": "^1.20150623.0",
-    "typescript": "^4.0.5"
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }

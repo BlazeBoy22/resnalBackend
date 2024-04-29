@@ -31,9 +31,12 @@ def getGrade(USN, batch, sem):
             grade = 5
         elif 40/100*total <= int(i["totalMarks"]) <= 44/100*total:
             grade = 4
-        else:
+        elif int(i["totalMarks"]) < 40/100*total:
             grade = 0
-        marks.update_one({"_id": i["_id"]}, {"$set": {"grade": grade}}, upsert=True)
+        try:
+            marks.update_one({"_id": i["_id"]}, {"$set": {"grade": grade}})
+        except:
+            print("Not updating")
 
 
 def totalFCD(USN, batch, sem):
@@ -45,7 +48,7 @@ def totalFCD(USN, batch, sem):
     for j in marks.find({"sid": str(selected_student["_id"])}):
         if j["fcd"] == "F":
             student.update_one(
-                {"_id": selected_student["_id"]}, {"$set": {"totalFCD": "F"}}, upsert=True
+                {"_id": selected_student["_id"]}, {"$set": {"totalFCD": "F"}}
             )
             return
         total += int(j["totalMarks"])
@@ -62,7 +65,7 @@ def totalFCD(USN, batch, sem):
     else:
         FCD = "P"
     student.update_one({"_id": selected_student["_id"]}, {
-                       "$set": {"totalFCD": FCD}}, upsert=True)
+                       "$set": {"totalFCD": FCD}})
 
 
 def FCD(USN, batch, sem):
@@ -85,7 +88,7 @@ def FCD(USN, batch, sem):
                 FCD = "P"
             else:
                 FCD = "F"
-        marks.update_one({"_id": i["_id"]}, {"$set": {"fcd": FCD}}, upsert=True)
+        marks.update_one({"_id": i["_id"]}, {"$set": {"fcd": FCD}})
 
 
 def GPA(USN, batch, sem):
@@ -96,34 +99,31 @@ def GPA(USN, batch, sem):
     gpa = 0
     roundoff = 0
     for j in marks.find({"sid": str(selected_student["_id"])}):
-        print(j['grade'], j['subjectCode'])
         totalgrade += j["grade"] * getCredit(j["subjectCode"])
         totalCredit += 10 * getCredit(j["subjectCode"])
     gpa = (totalgrade / totalCredit) * 10
     roundoff = round(gpa, 2)
     student.update_one({"_id": selected_student["_id"]}, {
-                       "$set": {"gpa": roundoff}}, upsert=True)
+                       "$set": {"gpa": roundoff}})
 
 
 def getCredit(subcode):
-    # 7th Sem 2020 Batch
-    if subcode == "18CS71" or subcode == "18CS72":
+    if subcode == "BMATS201":
         return 4
-    if subcode == "18CS734" or subcode == "18CS741" or subcode == "18IM751" or subcode == "18MAT753" or subcode == "18CV753" :
+    if subcode == "BCHES202":
+        return 4
+    if subcode == "BCEDK203":   
         return 3
-    if subcode == "18CSL76":
-        return 2
-    if subcode == "18CSP77":
+    if subcode == "BPWSK206":
         return 1
-
-    # #2nd_Sem_Datascience
-    # if subcode == "BMATS201" or subcode == "BCHES202":
-    #     return 4
-    # if subcode == "BPOPS203" or subcode=="BESCK204C" or subcode=="BPLCK205" or subcode=="BCEDK203" or subcode=="BPLCK205B" or subcode=="BESCK204C":
-    #     return 3
-    # if subcode == "BPWSK206" or subcode=="BKSKK207" or subcode=="BKBKK207" or subcode=="BSFHK258":
-    #     return 1
-
+    if subcode == "BKBKK207":
+        return 1
+    if subcode == "BKSKK207":
+        return 1
+    if subcode == "BSFHK258":
+        return 1      
+    if subcode == "BPLCK205B":
+        return 3
 
 
 def calculateTotal(USN, batch, sem):
@@ -134,10 +134,10 @@ def calculateTotal(USN, batch, sem):
     for j in marks.find({"sid": str(selected_student["_id"])}):
         total += int(j["totalMarks"])
     student.update_one({"_id": selected_student["_id"]}, {
-                       "$set": {"totalmarks": total}}, upsert=True)
+                       "$set": {"totalmarks": total}})
 
 data = []
-with open('./result10.json') as f:
+with open('./result7.json') as f:
     data = json.load(f)
 
 if __name__ == "__main__":
@@ -156,11 +156,10 @@ if __name__ == "__main__":
             print("Student Data Already Exists")
             continue
         res = s["results"]
-        student.update_one({"_id": stu_id}, {"$set": {"name": s["name"]}}, upsert=True)
+        #student.update({"_id": stu_id}, {"$set": {"name": s["name"]}})
         for r in res:
             mark = {
                 "sid": str(stu_id),
-                "usn": stu["usn"],
                 "subjectCode": r["subjectCode"],
                 "subjectName": r["subjectName"],
                 "internalMarks": r["ia"],

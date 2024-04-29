@@ -1,0 +1,4601 @@
+[
+  {
+    "name": "ANANYA BATTINENI",
+    "USN": "1BI22CD001",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 41,
+        "ea": 26,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 48,
+        "ea": 34,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 39,
+        "ea": 27,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 33,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 22,
+        "total": 63,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 23,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 37,
+        "ea": 22,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 40,
+        "ea": 22,
+        "total": 62,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "ARATI ",
+    "USN": "1BI22CD002",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 49,
+        "ea": 40,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 39,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 24,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 41,
+        "ea": 35,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 39,
+        "ea": 30,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 23,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 46,
+        "ea": 35,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 43,
+        "ea": 28,
+        "total": 71,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "ARPITA KRISHNA ",
+    "USN": "1BI22CD003",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 47,
+        "ea": 33,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 38,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 49,
+        "ea": 31,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 47,
+        "ea": 38,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 35,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 25,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 48,
+        "ea": 34,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 43,
+        "ea": 39,
+        "total": 82,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "ARVIND ",
+    "USN": "1BI22CD004",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 35,
+        "ea": 19,
+        "total": 54,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 40,
+        "ea": 23,
+        "total": 63,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 35,
+        "ea": 18,
+        "total": 53,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 31,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 42,
+        "ea": 18,
+        "total": 60,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 45,
+        "ea": 23,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 34,
+        "ea": 9,
+        "total": 43,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 37,
+        "ea": 26,
+        "total": 63,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "ARYA B V ",
+    "USN": "1BI22CD005",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 42,
+        "ea": 31,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 42,
+        "ea": 27,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 40,
+        "ea": 27,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 44,
+        "ea": 18,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 31,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 45,
+        "ea": 25,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 48,
+        "ea": 37,
+        "total": 85,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "BHUMIKA KALASAREDDY ",
+    "USN": "1BI22CD006",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 34,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 47,
+        "total": 96,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 38,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 26,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 39,
+        "ea": 18,
+        "total": 57,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 48,
+        "ea": 25,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 48,
+        "ea": 36,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 49,
+        "ea": 41,
+        "total": 90,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "BHUMIKA P",
+    "USN": "1BI22CD007",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 40,
+        "ea": 19,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 46,
+        "ea": 35,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 41,
+        "ea": 26,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 28,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 19,
+        "total": 60,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 22,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 29,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 39,
+        "total": 85,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "CHARITHA D",
+    "USN": "1BI22CD008",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 37,
+        "ea": 8,
+        "total": 45,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 41,
+        "ea": 11,
+        "total": 52,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 39,
+        "ea": 14,
+        "total": 53,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 23,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 38,
+        "ea": 18,
+        "total": 56,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 24,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 39,
+        "ea": 11,
+        "total": 50,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 35,
+        "ea": 27,
+        "total": 62,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "DARSHAN E ",
+    "USN": "1BI22CD009",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 44,
+        "ea": 27,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 37,
+        "total": 87,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 44,
+        "ea": 44,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 36,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 12,
+        "total": 53,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 20,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 45,
+        "ea": 36,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 44,
+        "ea": 26,
+        "total": 70,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "DEVAJ S ",
+    "USN": "1BI22CD010",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 41,
+        "total": 87,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 36,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 47,
+        "total": 97,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 31,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 39,
+        "ea": 22,
+        "total": 61,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 21,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 42,
+        "ea": 32,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 47,
+        "ea": 29,
+        "total": 76,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "DIA SHARMA ",
+    "USN": "1BI22CD011",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 38,
+        "ea": 26,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 38,
+        "total": 87,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 39,
+        "ea": 34,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 35,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 46,
+        "ea": 23,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 23,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 39,
+        "ea": 26,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 39,
+        "total": 85,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "ESHWAR R",
+    "USN": "1BI22CD012",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 44,
+        "ea": 31,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 48,
+        "ea": 30,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 22,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 47,
+        "ea": 30,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 42,
+        "ea": 23,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 20,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 38,
+        "ea": 29,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 40,
+        "ea": 33,
+        "total": 73,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "G RAM CHARAN",
+    "USN": "1BI22CD013",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 20,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 45,
+        "ea": 38,
+        "total": 83,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 31,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 41,
+        "ea": 36,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 37,
+        "ea": 27,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 45,
+        "ea": 26,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 41,
+        "ea": 39,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 43,
+        "ea": 28,
+        "total": 71,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "GOURAV CHAHAR ",
+    "USN": "1BI22CD014",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 49,
+        "ea": 36,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 36,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 49,
+        "ea": 36,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 40,
+        "ea": 28,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 20,
+        "total": 61,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 28,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 36,
+        "ea": 29,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 47,
+        "ea": 39,
+        "total": 86,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "HARSHA K L ",
+    "USN": "1BI22CD015",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 50,
+        "total": 98,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 50,
+        "total": 100,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 39,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 37,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 27,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 48,
+        "ea": 28,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 50,
+        "ea": 43,
+        "total": 93,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 49,
+        "ea": 41,
+        "total": 90,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "JANANI P ",
+    "USN": "1BI22CD016",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 27,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 39,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 49,
+        "ea": 37,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 37,
+        "total": 83,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 42,
+        "ea": 33,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 45,
+        "ea": 37,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 47,
+        "ea": 44,
+        "total": 91,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "JEEVAN K ",
+    "USN": "1BI22CD017",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 33,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 37,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 42,
+        "ea": 28,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 39,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 21,
+        "total": 61,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 28,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 44,
+        "ea": 33,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 45,
+        "ea": 24,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "KANNIKA MAHESH D ",
+    "USN": "1BI22CD018",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 47,
+        "ea": 45,
+        "total": 92,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 50,
+        "total": 100,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 49,
+        "ea": 42,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 32,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 27,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 25,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 48,
+        "ea": 42,
+        "total": 90,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 49,
+        "ea": 42,
+        "total": 91,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "KHUSHI KUMARI ",
+    "USN": "1BI22CD019",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 34,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 48,
+        "ea": 43,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 49,
+        "ea": 46,
+        "total": 95,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 35,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 38,
+        "ea": 23,
+        "total": 61,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 37,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 45,
+        "ea": 34,
+        "total": 79,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "KRUTHIKA S",
+    "USN": "1BI22CD020",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 36,
+        "ea": 11,
+        "total": 47,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 44,
+        "ea": 20,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 39,
+        "ea": 12,
+        "total": 51,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 27,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 44,
+        "ea": 18,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 23,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 39,
+        "ea": 20,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 39,
+        "ea": 22,
+        "total": 61,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "KRUTHIKA S S ",
+    "USN": "1BI22CD021",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 30,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 33,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 23,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 37,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 38,
+        "ea": 24,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 24,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 35,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 43,
+        "ea": 27,
+        "total": 70,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "KUSHAL N",
+    "USN": "1BI22CD022",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 44,
+        "ea": 13,
+        "total": 57,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 45,
+        "ea": 28,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 44,
+        "ea": 22,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 28,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 24,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 40,
+        "ea": 24,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 37,
+        "ea": 14,
+        "total": 51,
+        "result": "F"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "M KRITHIKA ",
+    "USN": "1BI22CD023",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 49,
+        "ea": 40,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 47,
+        "total": 96,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 41,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 47,
+        "ea": 38,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 33,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 45,
+        "ea": 35,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 50,
+        "ea": 40,
+        "total": 90,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "MANYASHREE P",
+    "USN": "1BI22CD024",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 41,
+        "ea": 23,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 47,
+        "ea": 38,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 39,
+        "ea": 34,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 31,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 28,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 21,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 30,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 43,
+        "ea": 32,
+        "total": 75,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "MITTA THANVITHA ",
+    "USN": "1BI22CD025",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 50,
+        "ea": 46,
+        "total": 96,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 43,
+        "total": 93,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 47,
+        "total": 97,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 37,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 39,
+        "ea": 23,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 29,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 48,
+        "ea": 48,
+        "total": 96,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 38,
+        "total": 84,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "MOHAMMED AMAAN",
+    "USN": "1BI22CD026",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 40,
+        "ea": 37,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 46,
+        "ea": 34,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 26,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 34,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 35,
+        "ea": 21,
+        "total": 56,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 28,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 36,
+        "ea": 30,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 45,
+        "ea": 35,
+        "total": 80,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "NAGASUPRIYA BANDLAMUDI ",
+    "USN": "1BI22CD027",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 50,
+        "ea": 43,
+        "total": 93,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 44,
+        "total": 94,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 48,
+        "total": 98,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 38,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 43,
+        "ea": 29,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 30,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 47,
+        "ea": 46,
+        "total": 93,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 49,
+        "ea": 40,
+        "total": 89,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "NISHANT BHARDWAJ ",
+    "USN": "1BI22CD028",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 45,
+        "ea": 30,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 48,
+        "ea": 44,
+        "total": 92,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 20,
+        "total": 63,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 37,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 42,
+        "ea": 29,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 45,
+        "ea": 28,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 42,
+        "ea": 42,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 49,
+        "ea": 30,
+        "total": 79,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "NITESH N ",
+    "USN": "1BI22CD029",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 44,
+        "ea": 35,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 36,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 41,
+        "ea": 35,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 35,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 42,
+        "ea": 25,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 45,
+        "ea": 28,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 41,
+        "ea": 34,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 38,
+        "ea": 22,
+        "total": 60,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "PAVAN D",
+    "USN": "1BI22CD030",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 37,
+        "ea": 27,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 47,
+        "ea": 38,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 40,
+        "ea": 11,
+        "total": 51,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 30,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 38,
+        "ea": 18,
+        "total": 56,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 48,
+        "ea": 25,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 42,
+        "ea": 27,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 42,
+        "ea": 38,
+        "total": 80,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "PRANAV GUPTA",
+    "USN": "1BI22CD031",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 49,
+        "ea": 45,
+        "total": 94,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 47,
+        "total": 97,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 44,
+        "ea": 32,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 31,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 43,
+        "ea": 28,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 47,
+        "ea": 35,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 19,
+        "total": 65,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "PREETHAM GOWDA R",
+    "USN": "1BI22CD032",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 42,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 47,
+        "ea": 31,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 42,
+        "ea": 28,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 36,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 25,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 22,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 46,
+        "ea": 34,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 42,
+        "ea": 35,
+        "total": 77,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "PRIYAM KUMARI ",
+    "USN": "1BI22CD033",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 43,
+        "ea": 29,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 45,
+        "total": 94,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 32,
+        "ea": 30,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 27,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 39,
+        "ea": 18,
+        "total": 57,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 25,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 39,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 39,
+        "total": 85,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "PRIYANKA S ",
+    "USN": "1BI22CD034",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 36,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 41,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 45,
+        "ea": 34,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 37,
+        "total": 82,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 29,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 47,
+        "ea": 31,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 48,
+        "ea": 32,
+        "total": 80,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "PUNITH S ",
+    "USN": "1BI22CD035",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 50,
+        "ea": 26,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 47,
+        "ea": 34,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 42,
+        "ea": 25,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 27,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 25,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 25,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 33,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 48,
+        "ea": 42,
+        "total": 90,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "PUVVADI VENKATA TANAY",
+    "USN": "1BI22CD036",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 36,
+        "ea": 24,
+        "total": 60,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 47,
+        "ea": 37,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 41,
+        "ea": 23,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 42,
+        "ea": 30,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 21,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 24,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 40,
+        "ea": 29,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 40,
+        "ea": 29,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "RAGHAVENDRA RAMESH DIVATE ",
+    "USN": "1BI22CD037",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 41,
+        "ea": 32,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 34,
+        "ea": 26,
+        "total": 60,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 34,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 18,
+        "total": 58,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 26,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 37,
+        "ea": 31,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 42,
+        "ea": 27,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "RAVIKUMAR L ",
+    "USN": "1BI22CD038",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 32,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 35,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 41,
+        "ea": 18,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 38,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 43,
+        "ea": 23,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 31,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 40,
+        "ea": 43,
+        "total": 83,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 43,
+        "ea": 43,
+        "total": 86,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "REESHA L N PRABHU",
+    "USN": "1BI22CD039",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 38,
+        "ea": 21,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 44,
+        "ea": 21,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 38,
+        "ea": 18,
+        "total": 56,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 33,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 22,
+        "total": 63,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 21,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 36,
+        "ea": 21,
+        "total": 57,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 38,
+        "ea": 26,
+        "total": 64,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "RUPESH KUMAR SINGH ",
+    "USN": "1BI22CD040",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 47,
+        "ea": 29,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 48,
+        "ea": 20,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 42,
+        "ea": 28,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 29,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 24,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 25,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 41,
+        "ea": 32,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 39,
+        "ea": 22,
+        "total": 61,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "S MOHAMMED HASNAIN ",
+    "USN": "1BI22CD041",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 47,
+        "ea": 46,
+        "total": 93,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 37,
+        "total": 87,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 41,
+        "ea": 23,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 35,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 15,
+        "total": 56,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 25,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 42,
+        "ea": 20,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 43,
+        "ea": 11,
+        "total": 54,
+        "result": "F"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SAHANA H R",
+    "USN": "1BI22CD042",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 28,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 46,
+        "ea": 38,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 41,
+        "ea": 33,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 35,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 37,
+        "ea": 18,
+        "total": 55,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 48,
+        "ea": 22,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 32,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 42,
+        "ea": 33,
+        "total": 75,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SAIYAM JAIN H M ",
+    "USN": "1BI22CD043",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 31,
+        "ea": 20,
+        "total": 51,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 47,
+        "ea": 19,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 35,
+        "ea": 10,
+        "total": 45,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 42,
+        "ea": 26,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 20,
+        "total": 60,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 45,
+        "ea": 20,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 32,
+        "ea": 10,
+        "total": 42,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 37,
+        "ea": 10,
+        "total": 47,
+        "result": "F"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SANYA RAMESH",
+    "USN": "1BI22CD044",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 35,
+        "ea": 18,
+        "total": 53,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 40,
+        "ea": 18,
+        "total": 58,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 38,
+        "ea": 23,
+        "total": 61,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 29,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 23,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 45,
+        "ea": 28,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 31,
+        "ea": 20,
+        "total": 51,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 40,
+        "ea": 28,
+        "total": 68,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SARA TAHOOR ",
+    "USN": "1BI22CD045",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 50,
+        "ea": 38,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 46,
+        "total": 96,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 34,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 35,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 42,
+        "ea": 31,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 31,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 50,
+        "ea": 39,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 49,
+        "ea": 46,
+        "total": 95,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SARANG SINGH ",
+    "USN": "1BI22CD046",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 34,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 48,
+        "ea": 46,
+        "total": 94,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 39,
+        "ea": 22,
+        "total": 61,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 24,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 18,
+        "total": 58,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 25,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 36,
+        "ea": 21,
+        "total": 57,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 38,
+        "ea": 34,
+        "total": 72,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SHARAD KRISHNA J S ",
+    "USN": "1BI22CD047",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 39,
+        "total": 87,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 41,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 48,
+        "ea": 31,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 47,
+        "ea": 42,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 25,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 29,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 40,
+        "ea": 28,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 44,
+        "ea": 35,
+        "total": 79,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SHASHI KIRAN J ",
+    "USN": "1BI22CD048",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 46,
+        "ea": 45,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 42,
+        "total": 92,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 43,
+        "total": 93,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 40,
+        "total": 83,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 43,
+        "ea": 22,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 31,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 47,
+        "ea": 39,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 49,
+        "ea": 41,
+        "total": 90,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SHEEWAM KUMAR ",
+    "USN": "1BI22CD049",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 47,
+        "ea": 37,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 47,
+        "total": 96,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 18,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 35,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 39,
+        "ea": 31,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 27,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 48,
+        "ea": 40,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 48,
+        "ea": 33,
+        "total": 81,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SHREELAKSHMI C GOWDA",
+    "USN": "1BI22CD050",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 30,
+        "ea": 26,
+        "total": 56,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 39,
+        "ea": 40,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 32,
+        "ea": 25,
+        "total": 57,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 42,
+        "ea": 14,
+        "total": 56,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 18,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 22,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 31,
+        "ea": 13,
+        "total": 44,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 39,
+        "ea": 23,
+        "total": 62,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SHREYAS RACHAPPA BAGALKOT ",
+    "USN": "1BI22CD051",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 44,
+        "ea": 49,
+        "total": 93,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 35,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 45,
+        "ea": 25,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 44,
+        "ea": 28,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 18,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 22,
+        "total": 69,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 46,
+        "ea": 25,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 23,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SHRIHARI M V ",
+    "USN": "1BI22CD052",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 42,
+        "ea": 12,
+        "total": 54,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 47,
+        "total": 97,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 39,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 41,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 43,
+        "ea": 36,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 24,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 41,
+        "ea": 26,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 48,
+        "ea": 31,
+        "total": 79,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SINCHANA R P ",
+    "USN": "1BI22CD053",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 42,
+        "ea": 36,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 38,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 28,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 30,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 39,
+        "ea": 18,
+        "total": 57,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 27,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 45,
+        "ea": 44,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 47,
+        "ea": 43,
+        "total": 90,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SRASHTI ",
+    "USN": "1BI22CD054",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 44,
+        "ea": 27,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 43,
+        "ea": 44,
+        "total": 87,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 43,
+        "ea": 31,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 41,
+        "ea": 38,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 21,
+        "total": 61,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 30,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 40,
+        "ea": 32,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 42,
+        "ea": 27,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "SURAJ A R ",
+    "USN": "1BI22CD055",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 49,
+        "ea": 41,
+        "total": 90,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 45,
+        "total": 95,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 49,
+        "ea": 27,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 47,
+        "ea": 36,
+        "total": 83,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 18,
+        "total": 59,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 48,
+        "ea": 26,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 45,
+        "ea": 32,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 47,
+        "ea": 37,
+        "total": 84,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "TANISH PANDEY",
+    "USN": "1BI22CD056",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 47,
+        "total": 95,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 48,
+        "ea": 38,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 45,
+        "ea": 26,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 34,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 23,
+        "total": 63,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 42,
+        "ea": 32,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 41,
+        "ea": 28,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "THANUSH J ",
+    "USN": "1BI22CD057",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 37,
+        "total": 85,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 44,
+        "total": 94,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 44,
+        "ea": 34,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 41,
+        "ea": 36,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 43,
+        "ea": 23,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 27,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 44,
+        "ea": 23,
+        "total": 67,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 44,
+        "ea": 42,
+        "total": 86,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "THANYA S ",
+    "USN": "1BI22CD058",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 20,
+        "total": 68,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 45,
+        "total": 95,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 45,
+        "ea": 25,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 43,
+        "ea": 31,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 30,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 28,
+        "total": 75,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 44,
+        "ea": 40,
+        "total": 84,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 45,
+        "ea": 27,
+        "total": 72,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "VAIBHAV KUMAR ",
+    "USN": "1BI22CD059",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 32,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 31,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 46,
+        "ea": 35,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 34,
+        "total": 79,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 41,
+        "ea": 24,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 25,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 41,
+        "ea": 21,
+        "total": 62,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 41,
+        "ea": 28,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "VARCHAS V",
+    "USN": "1BI22CD060",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 47,
+        "ea": 33,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 49,
+        "ea": 41,
+        "total": 90,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 46,
+        "ea": 18,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 35,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 10,
+        "total": 50,
+        "result": "F"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": null,
+        "total": 46,
+        "result": "W"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 38,
+        "ea": 36,
+        "total": 74,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 41,
+        "ea": 44,
+        "total": 85,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "VISHRUTHA S",
+    "USN": "1BI22CD061",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 37,
+        "ea": 20,
+        "total": 57,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 46,
+        "ea": 27,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 41,
+        "ea": 23,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 41,
+        "ea": 36,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 40,
+        "ea": 18,
+        "total": 58,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 47,
+        "ea": 23,
+        "total": 70,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 43,
+        "ea": 23,
+        "total": 66,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 41,
+        "ea": 28,
+        "total": 69,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "VIVEK DESAI ",
+    "USN": "1BI22CD062",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 49,
+        "ea": 38,
+        "total": 87,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 45,
+        "total": 95,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 48,
+        "ea": 23,
+        "total": 71,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 45,
+        "ea": 33,
+        "total": 78,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 43,
+        "ea": 29,
+        "total": 72,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 48,
+        "ea": 29,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 46,
+        "ea": 42,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 28,
+        "total": 74,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  },
+  {
+    "name": "YASHVI BHUWALKA ",
+    "USN": "1BI22CD063",
+    "results": [
+      {
+        "subjectCode": "BMATS101",
+        "subjectName": "MATHEMATICS FOR CSE STREAM-I",
+        "ia": 48,
+        "ea": 43,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPHYS102",
+        "subjectName": "PHYSICS FOR CSE STREAM",
+        "ia": 50,
+        "ea": 46,
+        "total": 96,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BPOPS103",
+        "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
+        "ia": 50,
+        "ea": 40,
+        "total": 90,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BENGK106",
+        "subjectName": "COMMUNICATIVE ENGLISH",
+        "ia": 46,
+        "ea": 43,
+        "total": 89,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BICOK107",
+        "subjectName": "INDIAN CONSTITUTION",
+        "ia": 38,
+        "ea": 26,
+        "total": 64,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BIDTK158",
+        "subjectName": "INNOVATION AND DESIGN THINKING",
+        "ia": 46,
+        "ea": 27,
+        "total": 73,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BESCK104B",
+        "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
+        "ia": 46,
+        "ea": 42,
+        "total": 88,
+        "result": "P"
+      },
+      {
+        "subjectCode": "BETCK105H",
+        "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
+        "ia": 46,
+        "ea": 36,
+        "total": 82,
+        "result": "P"
+      }
+    ],
+    "Batch": 2022,
+    "Sem": 1,
+    "Section": "A"
+  }
+]

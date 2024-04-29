@@ -1,0 +1,91 @@
+[
+  {
+    "name": "KEERTHANA K",
+    "USN": "1BI21CS060",
+    "results": [
+      {
+        "subjectCode": "21MATCS41",
+        "subjectName": "MATHEMATICAL FOUNDATIONS FOR COMPUTING, PROBABILITY & STATISTICS",
+        "ia": 49,
+        "ea": 48,
+        "total": 97,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21CS482",
+        "subjectName": "UNIX SHELL PROGRAMMING",
+        "ia": 46,
+        "ea": 31,
+        "total": 77,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21CS42",
+        "subjectName": "DESIGN AND ANALYSIS OF ALGORITHMS",
+        "ia": 45,
+        "ea": 35,
+        "total": 80,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21CS43",
+        "subjectName": "MICROCONTROLLER AND EMBEDDED SYSTEM",
+        "ia": 50,
+        "ea": 41,
+        "total": 91,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21CS44",
+        "subjectName": "OPERATING SYSTEM",
+        "ia": 47,
+        "ea": 39,
+        "total": 86,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21BE45",
+        "subjectName": "BIOLOGY FOR ENGINEERS",
+        "ia": 46,
+        "ea": 19,
+        "total": 65,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21CSL46",
+        "subjectName": "PYTHON PROGRAMMING LABORATORY",
+        "ia": 50,
+        "ea": 47,
+        "total": 97,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21CIP47",
+        "subjectName": "CONSTITUTION OF INDIA & PROFESSIONAL ETHICS",
+        "ia": 50,
+        "ea": 26,
+        "total": 76,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21UH49",
+        "subjectName": "UNIVERSAL HUMAN VALUES AND PROFESSIONAL ETHICS",
+        "ia": 43,
+        "ea": 38,
+        "total": 81,
+        "result": "P"
+      },
+      {
+        "subjectCode": "21INT49",
+        "subjectName": "INTER/INTRA INSTITUTIONAL INTERNSHIP",
+        "ia": 98,
+        "ea": 0,
+        "total": 98,
+        "result": "P"
+      }
+    ],
+    "Batch": 2021,
+    "Sem": 4,
+    "Section": "B"
+  }
+]

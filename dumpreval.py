@@ -1,7 +1,7 @@
 import json
 from pymongo import MongoClient
 import re
-client = MongoClient("graph.resnal.tech", 27017)
+client = MongoClient("graph.resnal.ml", 27017)
 db = client.data
 student = db.students
 marks = db.marks
@@ -9,10 +9,10 @@ marks = db.marks
 # Helper Methods
 
 
-def getGrade(USN, batch, sem):
+def getGrade(USN, batch, sem, subCode):
     selected_student = student.find(
         {"usn": USN, "batch": batch, "sem": sem})[0]
-    for i in marks.find({"sid": str(selected_student["_id"])}):
+    for i in marks.find({"sid": str(selected_student["_id"]), "subjectCode": subCode}):
         total = 100
         if(i["subjectCode"]=="17CSP85" or i["subjectCode"]=="15CSP85"):
             total=200
@@ -31,9 +31,9 @@ def getGrade(USN, batch, sem):
             grade = 5
         elif 40/100*total <= int(i["totalMarks"]) <= 44/100*total:
             grade = 4
-        else:
+        elif int(i["totalMarks"]) < 40/100*total:
             grade = 0
-        marks.update_one({"_id": i["_id"]}, {"$set": {"grade": grade}}, upsert=True)
+        marks.update_one({"_id": i["_id"]}, {"$set": {"grade": grade}})
 
 
 def totalFCD(USN, batch, sem):
@@ -45,7 +45,7 @@ def totalFCD(USN, batch, sem):
     for j in marks.find({"sid": str(selected_student["_id"])}):
         if j["fcd"] == "F":
             student.update_one(
-                {"_id": selected_student["_id"]}, {"$set": {"totalFCD": "F"}}, upsert=True
+                {"_id": selected_student["_id"]}, {"$set": {"totalFCD": "F"}}
             )
             return
         total += int(j["totalMarks"])
@@ -62,13 +62,13 @@ def totalFCD(USN, batch, sem):
     else:
         FCD = "P"
     student.update_one({"_id": selected_student["_id"]}, {
-                       "$set": {"totalFCD": FCD}}, upsert=True)
+                       "$set": {"totalFCD": FCD}})
 
 
-def FCD(USN, batch, sem):
+def FCD(USN, batch, sem, subCode):
     selected_student = student.find(
         {"usn": USN, "batch": batch, "sem": sem})[0]
-    for i in marks.find({"sid": str(selected_student["_id"])}):
+    for i in marks.find({"sid": str(selected_student["_id"]), "subjectCode": subCode}):
         total = 100
         if(i["subjectCode"]=="17CSP85" or i["subjectCode"]=="15CSP85"):
             total=200
@@ -85,7 +85,7 @@ def FCD(USN, batch, sem):
                 FCD = "P"
             else:
                 FCD = "F"
-        marks.update_one({"_id": i["_id"]}, {"$set": {"fcd": FCD}}, upsert=True)
+        marks.update_one({"_id": i["_id"]}, {"$set": {"fcd": FCD}})
 
 
 def GPA(USN, batch, sem):
@@ -96,34 +96,33 @@ def GPA(USN, batch, sem):
     gpa = 0
     roundoff = 0
     for j in marks.find({"sid": str(selected_student["_id"])}):
-        print(j['grade'], j['subjectCode'])
         totalgrade += j["grade"] * getCredit(j["subjectCode"])
         totalCredit += 10 * getCredit(j["subjectCode"])
     gpa = (totalgrade / totalCredit) * 10
     roundoff = round(gpa, 2)
     student.update_one({"_id": selected_student["_id"]}, {
-                       "$set": {"gpa": roundoff}}, upsert=True)
+                       "$set": {"gpa": roundoff}})
 
 
 def getCredit(subcode):
-    # 7th Sem 2020 Batch
-    if subcode == "18CS71" or subcode == "18CS72":
+    if subcode == "18CS71":
         return 4
-    if subcode == "18CS734" or subcode == "18CS741" or subcode == "18IM751" or subcode == "18MAT753" or subcode == "18CV753" :
+    if subcode == "18CS72":
+        return 4
+    if subcode == "18CS731" or subcode == "18CS732" or subcode == "18CS733" or subcode=="18CS734":
+        return 3
+    if subcode == "18CS741" or subcode == "18CS742" or subcode == "18CS743" or subcode=="18CS744" or subcode=="18CS745":
+        return 3
+    if subcode == "18IM751" or subcode == "18EI752" or subcode == "18MAT753":
         return 3
     if subcode == "18CSL76":
         return 2
     if subcode == "18CSP77":
         return 1
-
-    # #2nd_Sem_Datascience
-    # if subcode == "BMATS201" or subcode == "BCHES202":
-    #     return 4
-    # if subcode == "BPOPS203" or subcode=="BESCK204C" or subcode=="BPLCK205" or subcode=="BCEDK203" or subcode=="BPLCK205B" or subcode=="BESCK204C":
-    #     return 3
-    # if subcode == "BPWSK206" or subcode=="BKSKK207" or subcode=="BKBKK207" or subcode=="BSFHK258":
-    #     return 1
-
+    if subcode == "18CSL48":
+        return 2
+    if subcode == "18CPC49" or subcode == "21SFH29" or subcode == "21SFH19" or subcode=="21IDT19":
+        return 1
 
 
 def calculateTotal(USN, batch, sem):
@@ -134,10 +133,10 @@ def calculateTotal(USN, batch, sem):
     for j in marks.find({"sid": str(selected_student["_id"])}):
         total += int(j["totalMarks"])
     student.update_one({"_id": selected_student["_id"]}, {
-                       "$set": {"totalmarks": total}}, upsert=True)
+                       "$set": {"totalmarks": total}})
 
 data = []
-with open('./result10.json') as f:
+with open('./result2.json') as f:
     data = json.load(f)
 
 if __name__ == "__main__":
@@ -146,32 +145,26 @@ if __name__ == "__main__":
         print("USN:-" + USN)
         stu = {
             "usn": USN,
-            "section": s["Section"],
-            "batch": str(int(s["Batch"])),
-            "sem": int(s["Sem"]),
+            "Sem": 7,
+            "Batch": 2019,
         }
         try:
-            stu_id = student.insert_one(stu).inserted_id
+            stu_id = student.find_one({"usn":stu["usn"]})["_id"]
         except:
-            print("Student Data Already Exists")
+            print("Student Data Does Not Exists")
             continue
         res = s["results"]
-        student.update_one({"_id": stu_id}, {"$set": {"name": s["name"]}}, upsert=True)
+        # student.update_one({"_id": stu_id}, {"$set": {"name": s["name"]}})
+        print(s["name"])
         for r in res:
-            mark = {
-                "sid": str(stu_id),
-                "usn": stu["usn"],
-                "subjectCode": r["subjectCode"],
-                "subjectName": r["subjectName"],
-                "internalMarks": r["ia"],
-                "externalMarks": r["ea"],
-                "totalMarks": r["total"],
-                "result": r["result"],
-            }
-            marks.insert_one(mark)
-        getGrade(USN, str(int(s["Batch"])), s["Sem"])
-        FCD(USN, str(int(s["Batch"])), s["Sem"])
-        totalFCD(USN, str(int(s["Batch"])), s["Sem"])
-        GPA(USN, str(int(s["Batch"])), s["Sem"])
-        calculateTotal(USN, str(int(s["Batch"])), s["Sem"]  )
+            print(r["subjectCode"])
+            m_id = marks.find_one({"sid": str(stu_id), "subjectCode": r["subjectCode"]})["_id"]
+            update = {"$set": {"externalMarks": r["final"], "totalMarks": total, "result": r["result"]}}
+            marks.update_many({"_id":m_id}, update)
+            getGrade(USN, "2019", 7, r["subjectCode"])
+            FCD(USN, "2019", 7, r["subjectCode"])
+        
+        totalFCD(USN, "2019", 7)    
+        GPA(USN, "2019", 7)
+        calculateTotal(USN, "2019", 7)
     print("Done")
