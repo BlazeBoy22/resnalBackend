@@ -203,7 +203,7 @@ async function getResult(
     Section: string;
     Batch: string;
     Sem: string;
-  }> = await csv().fromFile("1SEM2023.csv");
+  }> = await csv().fromFile("new_1st_sem_2023.csv");
   for (const student of json1) {
     console.log(
       `${json1.indexOf(student) + 1}/${json1.length} - Name: ${
@@ -218,7 +218,7 @@ async function getResult(
         student.Section
       );
       console.log(res)
-      var stream = fs.createWriteStream("result12.json", { flags: 'a' });
+      var stream = fs.createWriteStream("result13.json", { flags: 'a' });
       stream.write(JSON.stringify(res) + "\n")
       console.log("Pushed result")
       Result.push(res);

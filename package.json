@@ -15,10 +15,10 @@
     "cheerio": "^1.0.0-rc.3",
     "csvtojson": "^2.0.10",
     "nodemon": "^2.0.6",
-    "tsc": "^1.20150623.0",
-    "typescript": "^5.0.4"
+    "tsc": "^1.20150623.0"
   },
   "devDependencies": {
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.5"
   }
 }

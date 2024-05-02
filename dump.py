@@ -139,7 +139,7 @@ def calculateTotal(USN, batch, sem):
                        "$set": {"totalmarks": total}}, upsert=True)
 
 data = []
-with open('./result12.json') as f:
+with open('./result13.json') as f:
     data = json.load(f)
 
 if __name__ == "__main__":
