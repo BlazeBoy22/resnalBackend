@@ -4,67 +4,11 @@
       "USN": "1BI23CS003",
       "results": [
         {
-          "subjectCode": "BMATS101",
-          "subjectName": "MATHEMATICS FOR CSE STREAM-I",
-          "ia": 48,
-          "ea": 28,
-          "total": 76,
-          "result": "P"
-        },
-        {
-          "subjectCode": "BPHYS102",
-          "subjectName": "PHYSICS FOR CSE STREAM",
-          "ia": 47,
-          "ea": 34,
-          "total": 81,
-          "result": "P"
-        },
-        {
-          "subjectCode": "BPOPS103",
-          "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
-          "ia": 42,
-          "ea": 26,
-          "total": 68,
-          "result": "P"
-        },
-        {
           "subjectCode": "BENGK106",
           "subjectName": "COMMUNICATIVE ENGLISH",
           "ia": 45,
-          "ea": 35,
-          "total": 80,
-          "result": "P"
-        },
-        {
-          "subjectCode": "BKBKK107",
-          "subjectName": "BALAKE KANNADA",
-          "ia": 48,
-          "ea": 43,
-          "total": 91,
-          "result": "P"
-        },
-        {
-          "subjectCode": "BIDTK158",
-          "subjectName": "INNOVATION AND DESIGN THINKING",
-          "ia": 47,
-          "ea": 33,
-          "total": 80,
-          "result": "P"
-        },
-        {
-          "subjectCode": "BESCK104B",
-          "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
-          "ia": 49,
-          "ea": 26,
-          "total": 75,
-          "result": "P"
-        },
-        {
-          "subjectCode": "BETCK105H",
-          "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
-          "ia": 41,
-          "ea": 18,
-          "total": 59,
+          "ea": 40,
+          "total": 85,
           "result": "P"
         }
       ],
@@ -80,64 +24,8 @@
             "subjectCode": "BMATS101",
             "subjectName": "MATHEMATICS FOR CSE STREAM-I",
             "ia": 48,
-            "ea": 36,
-            "total": 84,
-            "result": "P"
-          },
-          {
-            "subjectCode": "BPHYS102",
-            "subjectName": "PHYSICS FOR CSE STREAM",
-            "ia": 46,
-            "ea": 39,
-            "total": 85,
-            "result": "P"
-          },
-          {
-            "subjectCode": "BPOPS103",
-            "subjectName": "PRINCIPLES OF PROGRAMMING USING C",
-            "ia": 44,
-            "ea": 31,
-            "total": 75,
-            "result": "P"
-          },
-          {
-            "subjectCode": "BENGK106",
-            "subjectName": "COMMUNICATIVE ENGLISH",
-            "ia": 46,
-            "ea": 34,
-            "total": 80,
-            "result": "P"
-          },
-          {
-            "subjectCode": "BKBKK107",
-            "subjectName": "BALAKE KANNADA",
-            "ia": 47,
             "ea": 40,
-            "total": 87,
-            "result": "P"
-          },
-          {
-            "subjectCode": "BIDTK158",
-            "subjectName": "INNOVATION AND DESIGN THINKING",
-            "ia": 45,
-            "ea": 28,
-            "total": 73,
-            "result": "P"
-          },
-          {
-            "subjectCode": "BESCK104B",
-            "subjectName": "INTRODUCTION TO ELECTRICAL ENGINEERING",
-            "ia": 37,
-            "ea": 33,
-            "total": 70,
-            "result": "P"
-          },
-          {
-            "subjectCode": "BETCK105H",
-            "subjectName": "INTRODUCTION TO INTERNET OF THINGS (IOT)",
-            "ia": 46,
-            "ea": 39,
-            "total": 85,
+            "total": 88,
             "result": "P"
           }
         ],
