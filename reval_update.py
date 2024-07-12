@@ -2,10 +2,10 @@ import json
 
 # Load JSON data from files
 with open('result13.json', 'r') as file:
-    result13 = json.load(file)
+    result13 = json.load(file) # Original result json
 
 with open('result13_reval.json', 'r') as file:
-    result13_reval = json.load(file)
+    result13_reval = json.load(file) # Reval result json
 
 # Create a dictionary for quick lookup by USN
 result13_dict = {student['USN']: student for student in result13}
