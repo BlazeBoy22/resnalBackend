@@ -44,6 +44,8 @@ var csv = require("csvtojson");
 //const __dirname="./"
 var readLine = require("readline");
 var fs = require("fs");
+const { spawn } = require("child_process");
+
 var post_payload = {
     Token: "55af47bae3a4104902c28cea54dcce98ae34318b",
     captchacode: "iV4DKr",
@@ -126,11 +128,19 @@ function getNewSession() {
                         input: process.stdin,
                         output: process.stdout,
                     });
+                    
+                    const pythonScriptPath = Path.join(__dirname, "captcha.py");
+                    const pythonProcess = spawn("python3", [pythonScriptPath]);
+                    const captchaCode = fs.readFileSync("output.txt", "utf8");
+
                     return [4 /*yield*/, new Promise(function (resolve, reject) {
-                            input.question("Enter the captcha code: ", function (ans) { return resolve(ans); });
+                            input.question("Enter the captcha code: ", function (ans) {
+                                const captchaCode = fs.readFileSync("output.txt", "utf8");
+                                return resolve(captchaCode); });
                         })];
                 case 4:
                     temp_cap = _a.sent();
+                    console.log(temp_cap)
                     if (!(temp_cap != "")) return [3 /*break*/, 5];
                     post_payload["captchacode"] = temp_cap;
                     return [3 /*break*/, 7];
