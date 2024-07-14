@@ -73,6 +73,11 @@ var post_headers = {
 var httpsAgent = new https.Agent({
     rejectUnauthorized: false,
 });
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function getNewSession() {
     return __awaiter(this, void 0, void 0, function () {
         var url, headers, response, $, token, img_url, img_headers, path, writer, input, temp_cap;
@@ -107,7 +112,7 @@ function getNewSession() {
                     };
                     img_headers["Cookie"] = response.headers["set-cookie"][0].replace("; path=/; secure; HttpOnly", "");
                     post_headers["Cookie"] = img_headers["Cookie"];
-                    console.log(img_url);
+                    // console.log(img_url);
                     return [4 /*yield*/, axios.get(img_url, {
                             headers: img_headers,
                             httpsAgent: httpsAgent,
@@ -124,20 +129,20 @@ function getNewSession() {
                         })];
                 case 3:
                     _a.sent();
-                    input = readLine.createInterface({
-                        input: process.stdin,
-                        output: process.stdout,
-                    });
+                    // input = readLine.createInterface({
+                    //     input: process.stdin,
+                    //     output: process.stdout,
+                    // });
                     
                     const pythonScriptPath = Path.join(__dirname, "captcha.py");
                     const pythonProcess = spawn("python3", [pythonScriptPath]);
-                    const captchaCode = fs.readFileSync("output.txt", "utf8");
+                    // const captchaCode = fs.readFileSync("output.txt", "utf8");
 
-                    return [4 /*yield*/, new Promise(function (resolve, reject) {
-                            input.question("Enter the captcha code: ", function (ans) {
-                                const captchaCode = fs.readFileSync("output.txt", "utf8");
-                                return resolve(captchaCode); });
-                        })];
+                    return [4 /*yield*/, new Promise(async function (resolve, reject) {
+                        await delay(1000);
+                        const captchaCode = fs.readFileSync("output.txt", "utf8");
+                        return resolve(captchaCode); 
+                    })];
                 case 4:
                     temp_cap = _a.sent();
                     console.log(temp_cap)
@@ -251,44 +256,57 @@ function getResult(USN, Batch, Sem, Section) {
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
-                stream = fs.createWriteStream("result14.json", { flags: 'a' });
+                // console.log("0");
+                stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
                 stream.write("[\n");
                 stream.end();
                 Result = [];
                 return [4 /*yield*/, getNewSession()];
             case 1:
+                // console.log("1");
                 _a.sent();
-                return [4 /*yield*/, csv().fromFile("new_5th_sem_2021.csv")];
+                return [4 /*yield*/, csv().fromFile("5th_sem_2021.csv")];
             case 2:
+                // console.log("2");
                 json1 = _a.sent();
                 _i = 0, json1_1 = json1;
                 _a.label = 3;
             case 3:
+                // console.log("3");
                 if (!(_i < json1_1.length)) return [3 /*break*/, 8];
                 student = json1_1[_i];
                 console.log("".concat(json1.indexOf(student) + 1, "/").concat(json1.length, " - Name: ").concat(student.USN, " - Section: ").concat(student.Section));
                 _a.label = 4;
             case 4:
+                // console.log("4");
                 _a.trys.push([4, 6, , 7]);
                 return [4 /*yield*/, getResult(student.USN, parseInt(student.Batch), parseInt(student.Sem), student.Section)];
             case 5:
+                // console.log("5");
                 res = _a.sent();
                 console.log(res);
-                stream = fs.createWriteStream("result14.json", { flags: 'a' });
+                if(res == undefined) {
+                    // console.log("check")
+                    return [4 /*yield*/, getNewSession()];
+                }
+                stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
                 stream.write(JSON.stringify(res) + ",\n");
                 console.log("Pushed result");
                 Result.push(res);
                 stream.end();
                 return [3 /*break*/, 7];
             case 6:
+                // console.log("6");
                 error_1 = _a.sent();
                 console.log(error_1);
                 return [3 /*break*/, 7];
             case 7:
+                // console.log("7");
                 _i++;
                 return [3 /*break*/, 3];
             case 8:
-                stream = fs.createWriteStream("result14.json", { flags: 'a' });
+                // console.log("8");
+                stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
                 stream.write("]\n");
                 stream.end();
                 console.log("=========================");
