@@ -241,6 +241,9 @@ function getResult(USN, Batch, Sem, Section) {
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
+                stream = fs.createWriteStream("result14.json", { flags: 'a' });
+                stream.write("[\n");
+                stream.end();
                 Result = [];
                 return [4 /*yield*/, getNewSession()];
             case 1:
@@ -275,6 +278,9 @@ function getResult(USN, Batch, Sem, Section) {
                 _i++;
                 return [3 /*break*/, 3];
             case 8:
+                stream = fs.createWriteStream("result14.json", { flags: 'a' });
+                stream.write("]\n");
+                stream.end();
                 console.log("=========================");
                 console.log("Completed");
                 return [2 /*return*/];
