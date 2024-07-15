@@ -9,3 +9,4 @@ Initialization steps:
 2. sudo apt install tesseract-ocr
 3. sudo apt install tesseract-ocr-eng
 4. pip install pytesseract
+5. pip install openpyxl
