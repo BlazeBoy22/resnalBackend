@@ -78,6 +78,27 @@ function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function runPythonScript() {
+    return new Promise((resolve, reject) => {
+        const pythonProcess = spawn('python', ['captcha.py']);
+  
+        // Handle errors from the Python script
+        pythonProcess.stderr.on('data', (data) => {
+            console.error(`Error from Python script: ${data}`);
+            reject(data.toString());
+        });
+  
+        // Handle Python script exit/closing
+        pythonProcess.on('close', (code) => {
+            if (code === 0) {
+                resolve(); // Resolve if script exits with code 0 (success)
+            } else {
+                reject(`Python script exited with non-zero status code: ${code}`);
+            }
+        });
+    });
+}
+
 function getNewSession() {
     return __awaiter(this, void 0, void 0, function () {
         var url, headers, response, $, token, img_url, img_headers, path, writer, input, temp_cap;
@@ -134,12 +155,12 @@ function getNewSession() {
                     //     output: process.stdout,
                     // });
                     
-                    const pythonScriptPath = Path.join(__dirname, "captcha.py");
-                    const pythonProcess = spawn("python3", [pythonScriptPath]);
-                    // const captchaCode = fs.readFileSync("output.txt", "utf8");
+                    // const pythonScriptPath = Path.join(__dirname, "captcha.py");
+                    // const pythonProcess = spawn("python3", [pythonScriptPath]);
 
                     return [4 /*yield*/, new Promise(async function (resolve, reject) {
-                        await delay(1000);
+                        // await delay(1000);
+                        await runPythonScript();
                         const captchaCode = fs.readFileSync("output.txt", "utf8");
                         return resolve(captchaCode); 
                     })];
