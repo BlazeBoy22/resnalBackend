@@ -1,10 +1,10 @@
 import json
 
 # Load JSON data from files
-with open('result13.json', 'r') as file:
+with open('result14.json', 'r') as file:
     result13 = json.load(file) # Original result json
 
-with open('result13_reval.json', 'r') as file:
+with open('result14_reval.json', 'r') as file:
     result13_reval = json.load(file) # Reval result json
 
 # Create a dictionary for quick lookup by USN
@@ -25,5 +25,5 @@ for reval_student in result13_reval:
                     break
 
 # Write the updated results to a new JSON file
-with open('result13_updated.json', 'w') as file:
+with open('result14_updated.json', 'w') as file:
     json.dump(result13, file, indent=4)
