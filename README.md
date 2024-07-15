@@ -5,7 +5,7 @@ Files used in updation of revaluation marks:
 
 Initialization steps:
 
-sudo apt update
-sudo apt install tesseract-ocr
-sudo apt install tesseract-ocr-eng
-pip install pytesseract
+1. sudo apt update
+2. sudo apt install tesseract-ocr
+3. sudo apt install tesseract-ocr-eng
+4. pip install pytesseract
