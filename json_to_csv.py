@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load the JSON data
-with open('result14.json', 'r') as file:
+with open('result14_updated.json', 'r') as file:
     data = json.load(file)
 
 # Prepare the headers for the Excel sheet
