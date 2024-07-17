@@ -46,6 +46,8 @@ var readLine = require("readline");
 var fs = require("fs");
 const { spawn } = require("child_process");
 
+const filePath = 'result14_reval.json';
+
 var post_payload = {
     Token: "55af47bae3a4104902c28cea54dcce98ae34318b",
     captchacode: "iV4DKr",
@@ -278,9 +280,26 @@ function getResult(USN, Batch, Sem, Section) {
         switch (_a.label) {
             case 0:
                 // console.log("0");
-                stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
-                stream.write("[\n");
-                stream.end();
+
+                const stats = fs.statSync(filePath);
+                if (stats.size === 0) {
+                    fs.appendFileSync(filePath, "[\n", 'utf8')
+                }
+                else{
+                    // Read the JSON file synchronously
+                    const jsonData = fs.readFileSync(filePath, 'utf8');
+                    
+                    // Delete last two characters from jsonData
+                    const modifiedJsonData = jsonData.slice(0, -2);
+                    
+                    // Write modified JSON data back to file
+                    fs.writeFileSync(filePath, modifiedJsonData, 'utf8');
+                
+                    stream = fs.createWriteStream(filePath, { flags: 'a' });
+                    stream.write(",\n");
+                    stream.end();
+                }
+
                 Result = [];
                 return [4 /*yield*/, getNewSession()];
             case 1:
@@ -310,11 +329,12 @@ function getResult(USN, Batch, Sem, Section) {
                     // console.log("check")
                     return [4 /*yield*/, getNewSession()];
                 }
-                stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
-                stream.write(JSON.stringify(res) + ",\n");
-                console.log("Pushed result");
+                // stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
+                // stream.write(JSON.stringify(res) + ",\n");
+                fs.appendFileSync(filePath, JSON.stringify(res) + ",\n", 'utf8')
                 Result.push(res);
-                stream.end();
+                // stream.end();
+                console.log("Pushed result");
                 return [3 /*break*/, 7];
             case 6:
                 // console.log("6");
@@ -327,12 +347,22 @@ function getResult(USN, Batch, Sem, Section) {
                 return [3 /*break*/, 3];
             case 8:
                 // console.log("8");
-                stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
-                stream.write("]\n");
-                stream.end();
+
+                // Read the JSON file synchronously
+                const jsonData = fs.readFileSync(filePath, 'utf8');
+                        
+                // Delete last two characters from jsonData
+                let modifiedJsonData = jsonData.slice(0, -2);
+                modifiedJsonData += '\n';
+                        
+                // Write modified JSON data back to file
+                fs.writeFileSync(filePath, modifiedJsonData, 'utf8');
+                
+                fs.appendFileSync(filePath, "]", 'utf8')
                 console.log("=========================");
                 console.log("Completed");
                 return [2 /*return*/];
         }
     });
 }); })();
+
