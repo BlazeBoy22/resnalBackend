@@ -4,10 +4,6 @@ Files used in updation of revaluation marks:
 3. json_to_csv.py: Converts reval json to excel sheet.
 4. dump.py: The updated marks are dumped to the database.
 
-Initialization steps:
+Initialization steps(Run in terminal):
 
-1. sudo apt update
-2. sudo apt install tesseract-ocr
-3. sudo apt install tesseract-ocr-eng
-4. pip install pytesseract
-5. pip install openpyxl
+1. ./install_all.sh
