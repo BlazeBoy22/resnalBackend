@@ -6,4 +6,4 @@ Files used in updation of revaluation marks:
 
 Initialization steps(Run in terminal):
 
-1. ./install_all.sh
+1. './install_all.sh'
