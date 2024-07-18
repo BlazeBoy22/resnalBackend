@@ -67,7 +67,7 @@ var post_headers = {
     "Sec-Fetch-Mode": "navigate",
     "Sec-Fetch-User": "?1",
     "Sec-Fetch-Dest": "document",
-    Referer: "https://results.vtu.ac.in/DJRVcbcs24/index.php",
+    Referer: "https://results.vtu.ac.in/DJcbcs24/index.php",
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "en-US,en;q=0.9",
     Cookie: "VISRE=4ldr63bhbo4it7marog3ndqt2c4c6r1o24t90rhhutdd82vm6tlqmitj0bbn22undfndp18pv1c04c3s8ib4472iumg09s2nv55taf2; VISRE=gl48oihilvkotdn96oofnj9ehtsm91gp97jg6ck6snen1btkeob4ru34jjqterit4pl3nldh6tg4uc4r89kdfle40pu17g47dds86s0",
@@ -107,7 +107,7 @@ function getNewSession() {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    url = "https://results.vtu.ac.in/DJRVcbcs24/index.php";
+                    url = "https://results.vtu.ac.in/DJcbcs24/index.php";
                     headers = {
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.365",
                         Accept: "*/*",
@@ -190,11 +190,11 @@ function getResult(USN, Batch, Sem, Section) {
             switch (_a.label) {
                 case 0:
                     post_payload["lns"] = USN;
-                    url = "https://results.vtu.ac.in/DJRVcbcs24/resultpage.php";
+                    url = "https://results.vtu.ac.in/DJcbcs24/resultpage.php";
                     data = "Token=".concat(post_payload.Token, "&lns=").concat(post_payload.lns, "&captchacode=").concat(post_payload.captchacode);
                     config = {
                         method: "post",
-                        url: "https://results.vtu.ac.in/DJRVcbcs24/resultpage.php",
+                        url: "https://results.vtu.ac.in/DJcbcs24/resultpage.php",
                         headers: post_headers,
                         data: data,
                         httpsAgent: httpsAgent,
@@ -331,9 +331,10 @@ function getResult(USN, Batch, Sem, Section) {
                 }
                 // stream = fs.createWriteStream("result14_reval.json", { flags: 'a' });
                 // stream.write(JSON.stringify(res) + ",\n");
+                // stream.end();
                 fs.appendFileSync(filePath, JSON.stringify(res) + ",\n", 'utf8')
                 Result.push(res);
-                // stream.end();
+                console.log(res);
                 console.log("Pushed result");
                 return [3 /*break*/, 7];
             case 6:
