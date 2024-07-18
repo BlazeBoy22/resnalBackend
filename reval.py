@@ -224,8 +224,9 @@ def main():
         reader = csv.DictReader(csvfile)
         students = list(reader)
     
+    last_usn = 0
     for student in students:
-        print(f"{students.index(student) + 1}/{len(students)} - Name: {student['USN']} - Section: {student['Section']}")
+        print(f"{students.index(student) + 1}/{len(students)} - USN: {student['USN']} - Section: {student['Section']}")
         try:
             res = get_result(student['USN'], int(student['Batch']), int(student['Sem']), student['Section'])
             if res:
@@ -233,6 +234,7 @@ def main():
                     json.dump(res, f)
                     f.write(',\n')
                 Result.append(res)
+                last_usn = student['USN']
                 print("Pushed result")
             get_new_session()
         except Exception as e:
@@ -251,6 +253,10 @@ def main():
     
     print("=========================")
     print("Completed")
+    if(last_usn == 0):
+        print("No data pushed")
+    else:
+        print(f"Last USN Pushed : {last_usn}")
 
 if __name__ == "__main__":
     main()
