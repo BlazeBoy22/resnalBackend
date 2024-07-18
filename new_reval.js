@@ -47,6 +47,7 @@ var fs = require("fs");
 const { spawn } = require("child_process");
 
 const filePath = 'result14_reval.json';
+let last_usn = 0;
 
 var post_payload = {
     Token: "55af47bae3a4104902c28cea54dcce98ae34318b",
@@ -334,6 +335,7 @@ function getResult(USN, Batch, Sem, Section) {
                 // stream.end();
                 fs.appendFileSync(filePath, JSON.stringify(res) + ",\n", 'utf8')
                 Result.push(res);
+                last_usn = student.USN;
                 console.log(res);
                 console.log("Pushed result");
                 return [3 /*break*/, 7];
@@ -362,6 +364,10 @@ function getResult(USN, Batch, Sem, Section) {
                 fs.appendFileSync(filePath, "]", 'utf8')
                 console.log("=========================");
                 console.log("Completed");
+                if(last_usn == 0)
+                    console.log("No data Pushed");
+                else
+                    console.log("Last USN Pushed: ", last_usn);
                 return [2 /*return*/];
         }
     });
