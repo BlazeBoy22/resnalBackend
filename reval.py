@@ -6,6 +6,10 @@ import csv
 from bs4 import BeautifulSoup
 import json
 
+import pytesseract
+from PIL import Image, ImageFilter, ImageEnhance, ImageOps
+import re
+
 # Suppress only the single InsecureRequestWarning from urllib3 needed to disable SSL verification
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
@@ -36,11 +40,59 @@ post_headers = {
     'Cookie': 'VISRE=4ldr63bhbo4it7marog3ndqt2c4c6r1o24t90rhhutdd82vm6tlqmitj0bbn22undfndp18pv1c04c3s8ib4472iumg09s2nv55taf2; VISRE=gl48oihilvkotdn96oofnj9ehtsm91gp97jg6ck6snen1btkeob4ru34jjqterit4pl3nldh6tg4uc4r89kdfle40pu17g47dds86s0',
 }
 
-def delay(ms):
-    time.sleep(ms / 1000)
+# def delay(ms):
+#     time.sleep(ms / 1000)
 
-def run_python_script():
-    os.system('python captcha.py')
+# def run_python_script():
+#     os.system('python captcha.py')
+
+# Preprocess the image
+def preprocess_image(image):
+    # Convert to grayscale
+    gray_image = ImageOps.grayscale(image)
+    
+    # Enhance the image contrast
+    enhancer = ImageEnhance.Contrast(gray_image)
+    enhanced_image = enhancer.enhance(2)
+    
+    # Apply a median filter to reduce noise
+    filtered_image = enhanced_image.filter(ImageFilter.MedianFilter(size=3))
+    
+    # Binarize the image
+    threshold = 100
+    binary_image = filtered_image.point(lambda p: p > threshold and 255)
+    
+    return binary_image
+
+def captcha_solver():
+
+    # Load the image
+    image_path = "cap.png"
+    image = Image.open(image_path)
+
+    # Preprocess the image
+    processed_image = preprocess_image(image)
+
+    # Save the processed image (optional)
+    # processed_image_path = "processed_image.png"
+    # processed_image.save(processed_image_path)
+    # print(f"Processed image saved at: {processed_image_path}")
+
+    # Use pytesseract to do OCR on the processed image
+    captcha_text = pytesseract.image_to_string(processed_image, config='--psm 6').strip()
+
+    # Post-process to extract only alphanumeric characters
+    captcha_text_alphanumeric = re.sub(r'\W+', '', captcha_text)
+    # print(captcha_text_alphanumeric)
+
+    return captcha_text_alphanumeric
+
+    # Write the cleaned text to a new text file
+    # output_text_file = "output.txt"
+    # with open(output_text_file, 'w') as file:
+    #     file.write(captcha_text_alphanumeric)
+
+    # print(f"Captcha text written to: {output_text_file}")
 
 def get_new_session():
     url = 'https://results.vtu.ac.in/DJRVcbcs24/index.php'
@@ -75,17 +127,18 @@ def get_new_session():
         for chunk in img_response.iter_content(1024):
             f.write(chunk)
     
-    run_python_script()
+    # run_python_script()
     
-    with open('output.txt', 'r') as f:
-        temp_cap = f.read().strip()
+    # with open('output.txt', 'r') as f:
+    #     temp_cap = f.read().strip()
     
-    print(temp_cap)
+    # print(temp_cap)
+    temp_cap = captcha_solver()
     
     if temp_cap:
         post_payload['captchacode'] = temp_cap
     else:
-        print("Empty Captcha - Getting new Session")
+        # print("Empty Captcha - Getting new Session")
         get_new_session()
 
 def get_result(USN, Batch, Sem, Section):
@@ -97,7 +150,7 @@ def get_result(USN, Batch, Sem, Section):
     response = requests.post(url, headers=headers, data=data, verify=False)
     
     if 'Invalid captcha code !!!' in response.text:
-        print("Invalid Captcha, getting new session")
+        # print("Invalid Captcha, getting new session")
         get_new_session()
         return get_result(USN, Batch, Sem, Section)
     
@@ -167,7 +220,7 @@ def main():
     Result = []
     get_new_session()
     
-    with open('new_5th_sem_2021.csv', newline='') as csvfile:
+    with open('5th_sem_2021.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         students = list(reader)
     
