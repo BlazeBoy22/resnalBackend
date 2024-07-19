@@ -131,7 +131,7 @@ for row_index, row_data in enumerate(rows, start=3):
         elif cell_value == "F":
             cell.fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
 
-
+sections = []
 max_row = sheet.max_row
 for col_num in range(7, (len(subject_codes)+1)*4, 4):
     # col_letter = get_column_letter(col_num)
@@ -142,7 +142,7 @@ for col_num in range(7, (len(subject_codes)+1)*4, 4):
     p_count = 0
     f_count = 0
     
-    for i in range(max_row):
+    for i in range(2, max_row):
         cell = sheet.cell(row=i+1, column=col_num)
         if(cell.value == "FCD"):
             fcd_count += 1
@@ -154,7 +154,12 @@ for col_num in range(7, (len(subject_codes)+1)*4, 4):
             p_count += 1
         elif(cell.value == "F"):
             f_count += 1
-
+        
+        cell = sheet.cell(row=i+1, column=3)
+        if cell.value not in sections:
+            sections.append(cell.value)
+    
+    sheet.cell(row=max_row + 2, column=3, value="Total")
     sheet.cell(row=max_row + 2, column=col_num, value=fcd_count)
     sheet.cell(row=max_row + 2, column=col_num-1, value="FCD")
     sheet.cell(row=max_row + 3, column=col_num, value=fc_count)
@@ -165,6 +170,46 @@ for col_num in range(7, (len(subject_codes)+1)*4, 4):
     sheet.cell(row=max_row + 5, column=col_num-1, value="P")
     sheet.cell(row=max_row + 6, column=col_num, value=f_count)
     sheet.cell(row=max_row + 6, column=col_num-1, value="F")
+
+    for i in range(1,len(sections)+1):
+        fcd_count = 0
+        fc_count = 0
+        sc_count = 0
+        p_count = 0
+        f_count = 0
+
+        # print(i)
+        # print(sections[i-1])
+        # cell = sheet.cell(row=3, column=3)
+        # print(cell.value)
+        for j in range(2, max_row):
+            cell = sheet.cell(row=j+1, column=3)
+            if(cell.value == sections[i-1]):
+                cell = sheet.cell(row=j+1, column=col_num)
+                if(cell.value == "FCD"):
+                    fcd_count += 1
+                elif(cell.value == "FC"):
+                    fc_count += 1
+                elif(cell.value == "SC"):
+                    sc_count += 1
+                elif(cell.value == "P"):
+                    p_count += 1
+                elif(cell.value == "F"):
+                    f_count += 1
+        
+        sheet.cell(row=max_row+2 + 6*i, column=3, value=sections[i-1])
+        sheet.cell(row=max_row+2 + 6*i, column=col_num, value=fcd_count)
+        sheet.cell(row=max_row+2 + 6*i, column=col_num-1, value="FCD")
+        sheet.cell(row=max_row+2 + 6*i+1, column=col_num, value=fc_count)
+        sheet.cell(row=max_row+2 + 6*i+1, column=col_num-1, value="FC")
+        sheet.cell(row=max_row+2 + 6*i+2, column=col_num, value=sc_count)
+        sheet.cell(row=max_row+2 + 6*i+2, column=col_num-1, value="SC")
+        sheet.cell(row=max_row+2 + 6*i+3, column=col_num, value=p_count)
+        sheet.cell(row=max_row+2 + 6*i+3, column=col_num-1, value="P")
+        sheet.cell(row=max_row+2 + 6*i+4, column=col_num, value=f_count)
+        sheet.cell(row=max_row+2 + 6*i+4, column=col_num-1, value="F")
+
+# print(sections)
 
 # Save the workbook
 workbook.save("student_marks.xlsx")
