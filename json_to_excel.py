@@ -89,7 +89,9 @@ for student in data:
         for subject in student["results"]:
             if subject_code == subject["subjectCode"]:
                 flag = 1
-                if(int(subject["total"]) < 40 or int(subject["ea"]) < 18):
+                if(subject["total"] == None or subject["ea"] == None):
+                    class1 = ""
+                elif(int(subject["total"]) < 40 or int(subject["ea"]) < 18):
                     class1 = "F"
                 elif(int(subject["total"]) < 50):
                     class1 = "P"
