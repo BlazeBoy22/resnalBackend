@@ -5,15 +5,19 @@ import os
 import csv
 from bs4 import BeautifulSoup
 import json
+import pytesseract
+
 
 import pytesseract
 from PIL import Image, ImageFilter, ImageEnhance, ImageOps
 import re
 
+
 # Suppress only the single InsecureRequestWarning from urllib3 needed to disable SSL verification
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-file_path = 'result14_reval.json'
+#this has been modified with reference to file access from the upload folder
+file_path = '../result14_reval.json'
 
 post_payload = {
     'Token': '55af47bae3a4104902c28cea54dcce98ae34318b',
@@ -204,10 +208,16 @@ def get_result(USN, Batch, Sem, Section):
         return get_result(USN, Batch, Sem, Section)
 
 def main():
+    print('we are in reval.py')
+    file_size = os.stat(file_path).st_size
+    print(f"File size: {file_size} bytes")
+
     if os.stat(file_path).st_size == 0:
+        print('file size is found empty')
         with open(file_path, 'w') as f:
             f.write('[\n')
     else:
+        print('somehing is inside file')
         with open(file_path, 'r+') as f:
             json_data = f.read()
             modified_json_data = json_data[:-2]
@@ -220,7 +230,8 @@ def main():
     Result = []
     get_new_session()
     
-    with open('5th_sem_2021.csv', newline='') as csvfile:
+    #modified for node
+    with open('./uploads/5th_sem_2021.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         students = list(reader)
     

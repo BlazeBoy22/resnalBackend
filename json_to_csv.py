@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load the JSON data
-with open('result14_updated.json', 'r') as file:
+with open('result14_reval.json', 'r') as file:
     data = json.load(file)
 
 # Prepare the headers for the Excel sheet
@@ -24,10 +24,16 @@ subject_codes = [
 for code in subject_codes:
     headers.extend([f"{code} ia", f"{code} ea", f"{code} total"])
 
+print('ok lws see')
+print('printing header',headers)
 # Create a DataFrame to hold the data
 rows = []
 for student in data:
+    print(student)
+    print('ouw')
     row = [student["name"], student["USN"], student["Section"]]
+    print('here is my row')
+    print(row)
     # for subject in student["results"]:
     #     row.extend([subject["ia"], subject["ea"], subject["total"]])
     # rows.append(row)
@@ -46,7 +52,7 @@ for student in data:
 
     rows.append(row)
             
-
+print('printing rows ',rows)
 # Create the DataFrame
 df = pd.DataFrame(rows, columns=headers)
 

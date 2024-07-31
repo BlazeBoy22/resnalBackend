@@ -5,7 +5,7 @@ from openpyxl.styles import Alignment, Font, Border, Side, Color, PatternFill
 
 
 # Load the JSON data
-with open('result14_updated.json', 'r') as file:
+with open('result14_reval.json', 'r') as file:
     data = json.load(file)
 
 # Create a new workbook and select the active worksheet
@@ -138,12 +138,13 @@ for row_index, row_data in enumerate(rows, start=3):
         elif cell_value == "F":
             cell.fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
 
+"""
 sections = []
 max_row = sheet.max_row
 max_column = sheet.max_column
-additional_headers = ["GPA"]
-create_headers()
-print(max_column)
+# additional_headers = ["GPA"]
+# create_headers()
+# print(max_column)
 for col_num in range(7, (len(subject_codes)+1)*4, 4):
     # col_letter = get_column_letter(col_num)
 
@@ -254,7 +255,9 @@ def get_grade(marks):
             grade = 0
     
     return grade
+"""
 
+"""
 for i in range(2, max_row):
     totalgrade = 0
     totalcredit = 0
@@ -270,10 +273,10 @@ for i in range(2, max_row):
     gpa = (totalgrade / totalcredit) * 10
     gpa = round(gpa, 2)
     sheet.cell(row=i+1, column=max_column+1, value=gpa)
-
+"""
 
 # def get_GPA():
  
 
 # Save the workbook
-workbook.save("student_marks.xlsx")
+workbook.save("student_reval_marks.xlsx")
