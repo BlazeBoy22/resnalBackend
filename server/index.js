@@ -58,18 +58,59 @@ app.post('/upload', upload.single('file'), (req, res) => {
   });
 });
 
-const runPythonScript = (scriptPath, callback) => {
-  const pythonProcess = spawn('python', [scriptPath]);
 
-  pythonProcess.stdout.on('data', (data) => {
+app.post('/upload/results', upload.single('file'), (req, res) => {
+  console.log('hello world', 'request is received');
+  if (!req.file) {
+    return res.status(400).send('No file uploaded.');
+  }
+  console.log('file is received');
+
+  const filePath = path.join(__dirname, req.file.path);
+  const destinationPath = path.join(__dirname, 'uploads', req.file.originalname);
+
+  // Move the file to the desired location with the original name
+  fs.rename(filePath, destinationPath, (err) => {
+    if (err) {
+      return res.status(500).send('Error moving file.');
+    }
+    console.log('ready to run node')
+    // Run the Node.js script first
+    runScript('node', '../new_reval.js', () => {
+      // Then run the Python script to generate Excel file
+      runScript('python', '../json_to_excel.py', () => {
+        const excelFilePath = path.join(__dirname, 'student_marks.xlsx');
+
+        // Send the Excel file as response
+        res.download(excelFilePath, 'student_marks.xlsx', (err) => {
+          if (err) {
+            console.error(err);
+            res.status(500).send('Error sending Excel file');
+          }
+
+          // Clean up the Excel file after sending
+          fs.unlink(excelFilePath, (err) => {
+            if (err) console.error('Error deleting Excel file', err);
+          });
+        });
+      });
+    });
+  });
+});
+
+
+const runScript = (command, scriptPath, callback) => {
+  const process = spawn(command, [scriptPath]);
+
+  process.stdout.on('data', (data) => {
     console.log(`stdout: ${data}`);
   });
 
-  pythonProcess.stderr.on('data', (data) => {
+  process.stderr.on('data', (data) => {
     console.error(`stderr: ${data}`);
   });
 
-  pythonProcess.on('close', (code) => {
+  process.on('close', (code) => {
     if (code === 0) {
       console.log(`${scriptPath} completed successfully.`);
       callback();

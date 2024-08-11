@@ -1,4 +1,6 @@
 "use strict";
+
+console.log('in new_reval.js')
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -46,7 +48,11 @@ var readLine = require("readline");
 var fs = require("fs");
 const { spawn } = require("child_process");
 
-const filePath = 'result14_reval.json';
+const result_link = "https://results.vtu.ac.in/DJcbcs24/index.php";
+let result_link_2 = result_link.replace("index", "resultpage");
+// console.log(result_link_2);
+const filePath = '../result14.json';
+let semester = 2;
 let last_usn = 0;
 
 var post_payload = {
@@ -68,7 +74,7 @@ var post_headers = {
     "Sec-Fetch-Mode": "navigate",
     "Sec-Fetch-User": "?1",
     "Sec-Fetch-Dest": "document",
-    Referer: "https://results.vtu.ac.in/DJcbcs24/index.php",
+    Referer: result_link,
     "Accept-Encoding": "gzip, deflate, br",
     "Accept-Language": "en-US,en;q=0.9",
     Cookie: "VISRE=4ldr63bhbo4it7marog3ndqt2c4c6r1o24t90rhhutdd82vm6tlqmitj0bbn22undfndp18pv1c04c3s8ib4472iumg09s2nv55taf2; VISRE=gl48oihilvkotdn96oofnj9ehtsm91gp97jg6ck6snen1btkeob4ru34jjqterit4pl3nldh6tg4uc4r89kdfle40pu17g47dds86s0",
@@ -83,7 +89,7 @@ function delay(ms) {
 
 function runPythonScript() {
     return new Promise((resolve, reject) => {
-        const pythonProcess = spawn('python', ['captcha.py']);
+        const pythonProcess = spawn('python', ['../captcha.py']);
   
         // Handle errors from the Python script
         pythonProcess.stderr.on('data', (data) => {
@@ -108,7 +114,7 @@ function getNewSession() {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    url = "https://results.vtu.ac.in/DJcbcs24/index.php";
+                    url = result_link;
                     headers = {
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.365",
                         Accept: "*/*",
@@ -191,11 +197,11 @@ function getResult(USN, Batch, Sem, Section) {
             switch (_a.label) {
                 case 0:
                     post_payload["lns"] = USN;
-                    url = "https://results.vtu.ac.in/DJcbcs24/resultpage.php";
+                    url = result_link_2;
                     data = "Token=".concat(post_payload.Token, "&lns=").concat(post_payload.lns, "&captchacode=").concat(post_payload.captchacode);
                     config = {
                         method: "post",
-                        url: "https://results.vtu.ac.in/DJcbcs24/resultpage.php",
+                        url: result_link_2,
                         headers: post_headers,
                         data: data,
                         httpsAgent: httpsAgent,
@@ -223,7 +229,7 @@ function getResult(USN, Batch, Sem, Section) {
                     console.log("IP Blocked");
                     return [3 /*break*/, 10];
                 case 7:
-                    if (!res.data.includes("Semester : 5")) return [3 /*break*/, 8];
+                    if (!res.data.includes(`Semester : ${semester}`)) return [3 /*break*/, 8];
                     results_1 = [];
                     $_1 = cheerio.load(res.data);
                     $_1(".divTable").each(function (idx, v) {
@@ -243,10 +249,11 @@ function getResult(USN, Batch, Sem, Section) {
                                                 result_1.subjectName = $_1(ele).text().trim();
                                             case 2:
                                                 result_1.ia = parseInt($_1(ele).text().trim());
-                                            case 7:
+                                            case 3:
                                                 result_1.ea = parseInt($_1(ele).text().trim());
-                                                result_1.total = result_1.ia + result_1.ea;
-                                            case 8:
+                                            case 4:
+                                                result_1.total = parseInt($_1(ele).text().trim());
+                                            case 5:
                                                 result_1.result = $_1(ele).text().trim();
                                         }
                                     });
@@ -282,23 +289,31 @@ function getResult(USN, Batch, Sem, Section) {
             case 0:
                 // console.log("0");
 
-                const stats = fs.statSync(filePath);
-                if (stats.size === 0) {
-                    fs.appendFileSync(filePath, "[\n", 'utf8')
+                if (fs.existsSync(filePath))
+                {
+                    const stats = fs.statSync(filePath);
+                    if (stats.size === 0) {
+                        fs.appendFileSync(filePath, "[\n", 'utf8')
+                    }
+                    else{
+                        // Read the JSON file synchronously
+                        const jsonData = fs.readFileSync(filePath, 'utf8');
+                        
+                        // Delete last two characters from jsonData
+                        const modifiedJsonData = jsonData.slice(0, -2);
+                        
+                        // Write modified JSON data back to file
+                        fs.writeFileSync(filePath, modifiedJsonData, 'utf8');
+                    
+                        stream = fs.createWriteStream(filePath, { flags: 'a' });
+                        stream.write(",\n");
+                        stream.end();
+                    }
                 }
-                else{
-                    // Read the JSON file synchronously
-                    const jsonData = fs.readFileSync(filePath, 'utf8');
-                    
-                    // Delete last two characters from jsonData
-                    const modifiedJsonData = jsonData.slice(0, -2);
-                    
-                    // Write modified JSON data back to file
-                    fs.writeFileSync(filePath, modifiedJsonData, 'utf8');
-                
-                    stream = fs.createWriteStream(filePath, { flags: 'a' });
-                    stream.write(",\n");
-                    stream.end();
+
+                else
+                {
+                    fs.writeFileSync(filePath, "[\n", 'utf8');
                 }
 
                 Result = [];

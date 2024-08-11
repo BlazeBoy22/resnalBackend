@@ -143,7 +143,7 @@ max_row = sheet.max_row
 max_column = sheet.max_column
 additional_headers = ["GPA"]
 create_headers()
-print(max_column)
+# print(max_column)
 for col_num in range(7, (len(subject_codes)+1)*4, 4):
     # col_letter = get_column_letter(col_num)
 
@@ -222,14 +222,22 @@ for col_num in range(7, (len(subject_codes)+1)*4, 4):
 
 # print(sections)
 
+# def get_credits(s):
+#     if s == "21CS52" or :
+#         return 4
+#     elif s == "21CS51" or s == "21CS53" or s == "21CS54":
+#         return 3
+#     elif s == "21RMI56":
+#         return 2
+#     elif s == "21CSL581" or s == "21CSL582" or s == "21CSL55" or s == "21CIV57":
+#         return 1
+
 def get_credits(s):
-    if s == "21CS52":
+    if s == "BMATS201" or "BCHES202":
         return 4
-    elif s == "21CS51" or s == "21CS53" or s == "21CS54":
+    elif s == "BCEDK203" or s == "BESCK204A" or s == "BESCK204B" or s == "BESCK204C" or s == "BESCK204D" or s == "BESCK204E" or s == "BETCK205A" or s == "BETCK205B" or s == "BETCK205C" or s == "BETCK205D" or s == "BETCK205E" or s == "BETCK205F" or s == "BETCK205G" or s == "BETCK205H" or s == "BETCK205I" or s == "BETCK205J" or s == "BPLCK205A" or s == "BPLCK205B" or s == "BPLCK205C" or s == "BPLCK205D":
         return 3
-    elif s == "21RMI56":
-        return 2
-    elif s == "21CSL581" or s == "21CSL582" or s == "21CSL55" or s == "21CIV57":
+    elif s == "BPWSK206" or s == "BENGK206" or s == "BICOK207" or s == "BKSKK207" or s == "BKBKK207" or s == "BSFHK258" or s == "KIDTK258":
         return 1
 
 def get_grade(marks):

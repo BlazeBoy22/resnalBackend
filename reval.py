@@ -18,7 +18,10 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 #this has been modified with reference to file access from the upload folder
 file_path = '../result14_reval.json'
-
+options = {
+    'final':'../result_final.json',
+    'reval':'../result14_reval.json'
+}
 post_payload = {
     'Token': '55af47bae3a4104902c28cea54dcce98ae34318b',
     'captchacode': 'iV4DKr',
@@ -235,8 +238,20 @@ def main():
         reader = csv.DictReader(csvfile)
         students = list(reader)
     
+    try:
+        with open('last_usn.txt', 'r') as f:
+            last_usn = f.read().strip()
+    except FileNotFoundError:
+        last_usn = None
+
+    # Skip processed USNs
+    skip = True if last_usn else False
     last_usn = 0
     for student in students:
+        if skip:
+            if student['USN'] == last_usn:
+                skip = False  # Stop skipping once we reach the last processed USN
+                continue  # Skip this iteration
         print(f"{students.index(student) + 1}/{len(students)} - USN: {student['USN']} - Section: {student['Section']}")
         try:
             res = get_result(student['USN'], int(student['Batch']), int(student['Sem']), student['Section'])
@@ -252,6 +267,12 @@ def main():
             print(e)
             get_new_session()
     
+    #saving the last usn for next time , 
+    # After successfully saving the result
+    with open('last_usn.txt', 'w') as f:
+        f.write(last_usn)
+
+
     with open(file_path, 'r+') as f:
         json_data = f.read()
         modified_json_data = json_data[:-2] + '\n'
