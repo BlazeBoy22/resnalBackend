@@ -5,7 +5,7 @@ from openpyxl.styles import Alignment, Font, Border, Side, Color, PatternFill
 
 
 # Load the JSON data
-with open('result14_updated.json', 'r') as file:
+with open('../result14_updated.json', 'r') as file:
     data = json.load(file)
 
 # Create a new workbook and select the active worksheet
@@ -284,4 +284,4 @@ for i in range(2, max_row):
  
 
 # Save the workbook
-workbook.save("student_marks.xlsx")
+workbook.save("student_marks_2nd_sem.xlsx")
